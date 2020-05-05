@@ -39,7 +39,7 @@ app.get('/about',(req,res)=>{
 
 app.get('/help',(req,res)=>{
     res.render('help',{
-        help:"For any help call God",
+        help:"For any help pray to God",
         title:"Help",
         author:"Sarthak"
     })
